@@ -1,4 +1,4 @@
-<img width="1920" height="904" alt="vnc" src="https://github.com/user-attachments/assets/ccaaf270-8ea1-48fa-a7b3-4fbde31ab335" />
+<img width="1920" height="904" alt="Screenshot" src="https://github.com/user-attachments/assets/59e11d50-2ce0-49e4-bb69-0d5f96547038" />
 
 # AttackSurfaceAudit-Tool 
 - is a lightweight, read-only Linux security baseline auditing tool designed for system administrators, DevOps engineers, and blue teams. It inspects common misconfigurations and attack surfaces that attackers routinely abuse — without exploiting, modifying, or disrupting the system.
