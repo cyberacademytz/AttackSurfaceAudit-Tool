@@ -5,7 +5,7 @@ Lightweight Linux Security Baseline Auditor for Blue Teams
 > Auditing ≠ hacking.
 _This tool performs safe configuration checks only._
 
-# Why AttackSurfaceAudit Tool?
+## Why AttackSurfaceAudit Tool?
 Most real-world compromises don’t start with zero-days.
 They start with:
 > Weak authentication,
@@ -15,7 +15,7 @@ They start with:
 > Poor logging,
 > Excessive privileges
 
-# AttackSurfaceAudit focuses on high-impact, attacker-relevant weaknesses and explains:
+## AttackSurfaceAudit focuses on high-impact, attacker-relevant weaknesses and explains:
 > What was found
 > Why it matters
 > What an admin should do next
@@ -105,9 +105,11 @@ _Persistence survives reboots._
 
 
 # *Installation*
-`git clone https://github.com/yourusername/AttackSurfaceAudit.git
+```
+git clone https://github.com/yourusername/AttackSurfaceAudit.git
 cd AttackSurfaceAudit
-chmod +x AttackSurfaceAudit.sh`
+chmod +x AttackSurfaceAudit.sh
+```
 
 
 # *Usage*
@@ -117,10 +119,10 @@ Some checks require root to read system files safely.
 
 ## How This Differs from Lynis and Similar Tools
 
-> Single Bash script
-> Minimal & readable
-> Attacker-centric focus
-> Educational output
+> Single Bash script.
+> Minimal & readable.
+> Attacker-centric focus.
+> Educational output.
 > Safe by design
 
 ## Who Should Use This?
@@ -136,5 +138,5 @@ Some checks require root to read system files safely.
 _Contributions are welcome:_
 
 
-__ This tool is provided for defensive security auditing only.
-Use responsibly and only on systems you own or are authorized to audit.__
+_ _ This tool is provided for defensive security auditing only.
+Use responsibly and only on systems you own or are authorized to audit._ _
