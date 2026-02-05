@@ -1,5 +1,5 @@
 # AttackSurfaceAudit-Tool 
-### - is a lightweight, read-only Linux security baseline auditing tool designed for system administrators, DevOps engineers, and blue teams. It inspects common misconfigurations and attack surfaces that attackers routinely abuse — without exploiting, modifying, or disrupting the system.
+- is a lightweight, read-only Linux security baseline auditing tool designed for system administrators, DevOps engineers, and blue teams. It inspects common misconfigurations and attack surfaces that attackers routinely abuse — without exploiting, modifying, or disrupting the system.
 
 Lightweight Linux Security Baseline Auditor for Blue Teams
 > Auditing ≠ hacking.
@@ -8,11 +8,11 @@ _This tool performs safe configuration checks only._
 # Why AttackSurfaceAudit Tool?
 Most real-world compromises don’t start with zero-days.
 They start with:
-> Weak authentication
-> Misconfigured sudo
-> World-writable files
-> Forgotten services
-> Poor logging
+> Weak authentication,
+> Misconfigured sudo,
+> World-writable files,
+> Forgotten services,
+> Poor logging,
 > Excessive privileges
 
 # AttackSurfaceAudit focuses on high-impact, attacker-relevant weaknesses and explains:
@@ -105,14 +105,13 @@ _Persistence survives reboots._
 
 
 # *Installation*
-'''
-git clone https://github.com/yourusername/AttackSurfaceAudit.git
+`git clone https://github.com/yourusername/AttackSurfaceAudit.git
 cd AttackSurfaceAudit
-chmod +x AttackSurfaceAudit.sh
-'''
+chmod +x AttackSurfaceAudit.sh`
+
 
 # *Usage*
-'sudo ./AttackSurfaceAudit.sh'
+`sudo ./AttackSurfaceAudit.sh`
 
 Some checks require root to read system files safely.
 
