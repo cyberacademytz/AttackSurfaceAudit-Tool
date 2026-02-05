@@ -106,32 +106,34 @@ _Persistence survives reboots._
 
 # *Installation*
 ```
-git clone https://github.com/yourusername/AttackSurfaceAudit.git
-cd AttackSurfaceAudit
+git clone https://github.com/cyberacademytz/AttackSurfaceAudit-Tool.git
+cd AttackSurfaceAudit-Tool
 chmod +x AttackSurfaceAudit.sh
 ```
 
 
 # *Usage*
-`sudo ./AttackSurfaceAudit.sh`
+```
+sudo ./AttackSurfaceAudit.sh
+```
 
 Some checks require root to read system files safely.
 
 ## How This Differs from Lynis and Similar Tools
 
-> Single Bash script.
-> Minimal & readable.
-> Attacker-centric focus.
-> Educational output.
-> Safe by design
+> - Single Bash script.
+> - Minimal & readable.
+> - Attacker-centric focus.
+> - Educational output.
+> - Safe by design
 
 ## Who Should Use This?
 
-> System administrators
-> DevOps / SRE teams
-> Blue teams
-> Incident responders
-> Security learners and homelabs
+> - System administrators
+> - DevOps / SRE teams
+> - Blue teams
+> - Incident responders
+> - Security learners and homelabs
 
 ## Contributing
 
